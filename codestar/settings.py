@@ -33,7 +33,7 @@ if os.path.isfile('env.py'):
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['codestar-ssmerd.heroku.com', 'localhost']
+ALLOWED_HOSTS = ['codestar-ssmerd-3446a83800b8.herokuapp.com', 'localhost']
 
 
 # Application definition
