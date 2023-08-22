@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 from django.contrib.messages import constants as messages
-
 import dj_database_url
 if os.path.isfile("env.py"):
     import env
@@ -32,8 +31,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-X_FRAME_OPTIONS = 'SAMEORIGIN'
-
 ALLOWED_HOSTS = ["codestar-ssmerd-3446a83800b8.herokuapp.com", "localhost"]
 
 # Application definition
@@ -48,11 +45,11 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'crispy_forms',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'django_summernote',
-    'crispy_forms',
     'blog',
 ]
 
