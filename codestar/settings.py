@@ -34,7 +34,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ["https://codestar-ssmerd-3446a83800b8.herokuapp.com/", "localhost"]
+ALLOWED_HOSTS = ["codestar-ssmerd-3446a83800b8.herokuapp.com/", "localhost"]
 
 # Application definition
 
